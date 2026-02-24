@@ -1,8 +1,3 @@
-import java.io.File;
-import java.util.Scanner;
-import java.util.ArrayList;
-import java.io.FileNotFoundException;
-
 public class Q1 {
 
     public static int letcount(String S, int position){
