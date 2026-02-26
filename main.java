@@ -40,14 +40,14 @@ public static void main(String[] args) {
         
         System.out.println("The new string is: "+Q5.reverseString(Q5string, 0)); 
 
-         System.out.println("Please enter your list of integer for Q6:");
-        String S = scanner.nextLine();
-         String[] test= S.split(",");
+         System.out.println("Please enter your list of integers for Q6:");
+         String[] test= scanner.next().split(",");
         int Q6array[] = Arrays.stream(test).mapToInt(Integer::parseInt).toArray();
         
         System.out.println("The even sum is: "+Q6.evenSum(Q6array, 0)); 
     
         scanner.close();
+ 
 
     }
 } 
