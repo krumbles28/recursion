@@ -9,7 +9,7 @@ return newS;
     
 }
 public static void main(String[] args) {
-        String test = "happy";
+        String test = "bruh";
         System.out.println(reverseString(test,0));
     }
 }
