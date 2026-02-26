@@ -1,3 +1,4 @@
+
 public class Q1 {
 
     public static int letcount(String S, int position){
